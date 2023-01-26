@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@100&family=Titillium+Web:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background: #cec;
+  display: flex;
+  font-family: 'Plus jakarta sans',sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+
+}
+.container{
+  width: 520px;
+  height: auto;
+  border-radius: 1px;
+  background: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+.container .not{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+
+}
+.container .not span{
+  background: #11a;
+  color: #fff;
+  font-size: 16px;
+ padding: 0.5px 3px;
+ border: 0.5px solid #fff;
+ border-radius: 4px;
+}
+.container .not #mark{
+  cursor: pointer;
+}
+.container .who{
+  display: flex;
+  background: #cec;
+  align-items: center;
+  border-radius: 4px;
+  margin: 6px;
+}
+.container .who {
+  color: rgb(151, 133, 133);
+  font-size: 15px;
+  padding: 3px;
+}
+.space{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .who p span{
+  color: rgb(12, 12, 65);
+  cursor: pointer;
+}
+.container .who img{
+  height: 40px;
+  margin: 10px;
+}
+/* who1 */
+.container .who1{
+  display: flex;
+  background: #fff;
+  align-items: center;
+  border-radius: 4px;
+  margin: 6px;
+}
+.container .who1 {
+  color: rgb(151, 133, 133);
+  font-size: 15px;
+}
+.space{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .who1 p span{
+  color: rgb(12, 12, 65);
+  cursor: pointer;
+}
+.container .who1 img{
+  height: 40px;
+  margin: 10px;
+}
+/* who1 */
+.container .who .redDot{
+  background: rgb(226, 45, 45);
+  display: initial;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+.message{
+  background: transparent;
+  padding: 2px;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button{
+  text-decoration: none;
+}
+#pp{
+  background: rgb(135, 182, 204);
+}
+
+
